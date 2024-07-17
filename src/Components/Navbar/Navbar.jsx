@@ -33,27 +33,17 @@ const Navbar = () => {
                 aria-current="page"
                 href="#"
               >
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">
-                Exprince
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">
-                Skills
+                <img src="/person_icons.png" /> About
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link " href="#">
-                Project
+                <img src="/project_icons.png" /> Project
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link " href="#">
-                Contact
+                <img src="/contact_icons.png" alt="" /> Contact
               </Link>
             </li>
           </ul>

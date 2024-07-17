@@ -9,6 +9,10 @@
   border-radius: 1.43rem;
 }
 
+.navbar .nav-link img {
+  height: 30px;
+}
+
 .navbar .nav-link:hover {
   color: var(--main-color) !important;
   background-color: #fff;

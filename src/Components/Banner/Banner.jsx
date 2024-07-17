@@ -8,11 +8,14 @@ const Banner = () => {
       <Particles id="particles" />
       <div className="left">
         <p>
-          <h2>Hello! 👋🏻 My Name is </h2>
+          <h2>
+            Hello! <span className="wave">👋🏻</span> My Name is{" "}
+          </h2>
           <h1> Ajay Kumar Gupta </h1> and I have recently completed B.Tech in
           Computer Science and Engineering at Kashi Institute Of Technology,
-          Varanasi, Uttar Pradesh, India. I am passionate About technologies
-          like; MERN Stack, React development.
+          Varanasi, Uttar Pradesh, India. <br />
+          I am passionate About technologies like; MERN Stack, React
+          development.
           <br />
           <br />
           Currently, I am working in Acxiom Consulting Pvt. Ltd. at IT and
@@ -33,7 +36,7 @@ const Banner = () => {
       </div>
       <div className="right">
         <div className="logoImg">
-          <img src={logo} />
+          <img src={logo} loading="lazy" />
         </div>
         <hr />
       </div>
