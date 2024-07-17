@@ -18,11 +18,11 @@
 .left {
   padding: 1.25rem;
   width: 50%;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 }
 .left p {
   font-weight: 500;
-  color: #fff;
+  color: var(--secondary-color);
   padding: 1.25rem;
 }
 
@@ -34,14 +34,14 @@
   border: 0.063rem solid var(--main-color);
   background-color: var(--main-color);
   text-decoration: none;
-  color: #fff;
+  color: var(--secondary-color);
   border-radius: 0.625rem;
   padding: 0.625rem;
   margin-left: 1.25rem;
 }
 
 .download-resume:hover {
-  background-color: #fff;
+  background-color: var(--secondary-color);
   color: var(--main-color);
 }
 
@@ -62,7 +62,7 @@
 } */
 
 .logoImg {
-  background-color: #000;
+  /* background-color: #000; */
   border: 1px solid var(--main-color);
   height: 15rem;
   width: 15rem;

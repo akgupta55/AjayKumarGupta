@@ -3,7 +3,7 @@
 }
 
 .navbar .nav-link {
-  color: #fff !important;
+  color: var(--secondary-color) !important;
   background-color: var(--main-color);
   border: 0.063rem solid var(--main-color);
   border-radius: 1.43rem;
@@ -15,12 +15,12 @@
 
 .navbar .nav-link:hover {
   color: var(--main-color) !important;
-  background-color: #fff;
+  background-color: var(--secondary-color);
 }
 
 .navbar .active {
   color: var(--main-color) !important;
-  background-color: #fff !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .navbar .logo {

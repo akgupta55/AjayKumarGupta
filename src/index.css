@@ -6,6 +6,7 @@
 }
 
 :root {
+  --secondary-color: #fff;
   --main-color: #eb6841;
 }
 /* // <uniquifier>: Use a unique and descriptive class name
