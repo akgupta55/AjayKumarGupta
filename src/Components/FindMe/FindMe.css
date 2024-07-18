@@ -1,0 +1,58 @@
+.findme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.findme h1 {
+  color: var(--secondary-color);
+  /* backdrop-filter: blur(10px); */
+  font-size: 40px;
+}
+
+.findme h1 b {
+  color: var(--main-color);
+}
+
+.findme p {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.findme p .sub_heading {
+  color: var(--main-color);
+}
+
+.findme ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.findme ul li {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--social-icon);
+  background: hsla(0, 0%, 100%, 0.972);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.findme ul li:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--social-shadow);
+}
+
+.findme ul li a {
+  color: var(--main-color);
+}

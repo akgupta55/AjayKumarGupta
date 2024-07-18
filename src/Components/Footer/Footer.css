@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--secondary-color);
+  background-color: black;
+  border-top: 1px solid var(--secondary-color);
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.footer ul li {
+  font-size: 20px;
+}
+
+.footer ul li a {
+  color: var(--main-color);
+}

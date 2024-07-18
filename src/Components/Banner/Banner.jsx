@@ -36,7 +36,7 @@ const Banner = () => {
       </div>
       <div className="right">
         <div className="logoImg">
-          <img src={logo} loading="lazy" />
+          <img src={logo} loading="eager|lazy" />
         </div>
         <hr />
       </div>
