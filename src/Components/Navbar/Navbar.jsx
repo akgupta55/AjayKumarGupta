@@ -1,13 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const jumpToExperienceDiv = (id) => {
-    const releventDiv = document.getElementById(id);
-    // behavior: "smooth" parameter for smooth movement
-    releventDiv.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <nav className="navbar navbar-expand-lg bg-black text-white fixed-top">
       <div className="container-fluid ms-6">
@@ -28,23 +22,39 @@ const Navbar = () => {
         <div className="collapse navbar-collapse me-4" id="navbarNav">
           <ul className="navbar-nav ms-auto text-white">
             <li className="nav-item">
-              <Link
-                className="nav-link active text-white"
+              <NavLink
+                // className="nav-link text-white"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
-                href="#"
+                to="/"
+                exact
               >
                 <img src="/person_icons.png" /> About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link " href="#">
+              <NavLink
+                // className="nav-link "
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/projects"
+              >
                 <img src="/project_icons.png" /> Project
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link " href="#">
+              <NavLink
+                // className="nav-link "
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/contact"
+              >
                 <img src="/contact_icons.png" alt="" /> Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

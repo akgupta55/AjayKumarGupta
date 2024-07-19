@@ -1,11 +1,11 @@
 import logo from "/logo.png";
 import "./Banner.css";
-import Particles from "../Background/Particles";
+// import Particles from "../Background/Particles";
 
 const Banner = () => {
   return (
     <div className="banner">
-      <Particles id="particles" />
+      {/* <Particles id="particles" /> */}
       <div className="left">
         <p>
           <h2>

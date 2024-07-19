@@ -5,8 +5,8 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiSass,
 } from "react-icons/di";
+import { SiMicrosoftazure } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -31,7 +31,7 @@ const Skills = () => {
           <DiMongodb />
         </li>
         <li className="icon">
-          <DiSass />
+          <SiMicrosoftazure />
         </li>
       </ul>
     </div>
