@@ -13,11 +13,16 @@ const Project = () => {
           See My <span className="sub_heading">Works</span>
         </h1>
         <div className="project_list">
-          <img src="" alt="" />
+          <img src="/Project1.png" alt="" />
           <div className="des">
-            <h2></h2>
-            <p></p>
-            <button></button>
+            <h2>PROJECT NO 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+              officiis consequatur doloremque eum aspernatur omnis quam labore
+              iure reprehenderit tempore, totam excepturi impedit natus
+              expedita!
+            </p>
+            <button>LIVE DEMO</button>
           </div>
         </div>
       </div>

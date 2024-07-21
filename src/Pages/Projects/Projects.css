@@ -18,3 +18,50 @@
 .project h1 .sub_heading {
   color: var(--main-color);
 }
+
+.project .project_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px 40px;
+  gap: 20px;
+  padding-inline: 60px;
+}
+
+.project .project_list img {
+  height: 300px;
+  width: 400px;
+  border: 0.3rem solid var(--secondary-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project .project_list .des {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.des h2 {
+  font-size: 40px;
+  color: var(--main-color);
+}
+
+.des p {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.des button {
+  width: 20%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  color: var(--main-color);
+}
+
+.des button:hover {
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+}
