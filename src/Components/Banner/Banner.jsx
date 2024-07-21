@@ -21,18 +21,6 @@ const Banner = () => {
           Currently, I am working in Acxiom Consulting Pvt. Ltd. at IT and
           Infrastructure team as a Trainee - Technical.
         </p>
-        {/* <a
-          className="download-resume"
-          target="_blank"
-          href="https://drive.google.com/file/d/12LKiWoG--Nei8T75UYzx7-lrUM1Hcqag/view?usp=sharing"
-        >
-          Download Resume
-        </a>
-        <div className="icons">
-          <i className="bx bxl-instagram"></i>
-          <i className="bx bxl-github"></i>
-          <i className="bx bxl-linkedin-square"></i>
-        </div> */}
       </div>
       <div className="right">
         <div className="logoImg">
