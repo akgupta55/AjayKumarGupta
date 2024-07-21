@@ -54,4 +54,7 @@
   .skills h1 {
     font-size: 2rem;
   }
+  .skills .icon_list {
+    padding-inline: 0;
+  }
 }
