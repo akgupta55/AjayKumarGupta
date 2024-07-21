@@ -9,8 +9,11 @@ const Contact = () => {
       <Navbar />
       <Particles id="particles" />
       <div className="contact">
-        <h1>hello</h1>
+        <h1>
+          <span className="sub_heading">Contact</span> Me
+        </h1>
       </div>
+
       <Footer />
     </>
   );
