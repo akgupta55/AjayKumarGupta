@@ -2,7 +2,7 @@ import Particles from "../../Components/Background/Particles";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Projects.css";
-import project1_img from "../../assets/Project1.png";
+import project_list from "../../assets/project_data";
 
 const Project = () => {
   return (
@@ -14,17 +14,20 @@ const Project = () => {
           See My <span className="sub_heading">Works</span>
         </h1>
         <div className="project_list">
-          <img src={project1_img} alt="" />
-          <div className="des">
-            <h2>PROJECT NO 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
-              officiis consequatur doloremque eum aspernatur omnis quam labore
-              iure reprehenderit tempore, totam excepturi impedit natus
-              expedita!
-            </p>
-            <button>LIVE DEMO</button>
-          </div>
+          {project_list.map((item, i) => {
+            return (
+              <div className="project_item" key={i}>
+                <img src={item.image} alt="" />
+                <div className="des">
+                  <h2>{item.heading}</h2>
+                  <p>{item.des}</p>
+                  <a href={item.link} target="_blank">
+                    LIVE DEMO
+                  </a>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
       <Footer />
