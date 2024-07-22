@@ -2,6 +2,7 @@ import Particles from "../../Components/Background/Particles";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Projects.css";
+import project1_img from "../../assets/Project1.png";
 
 const Project = () => {
   return (
@@ -13,7 +14,7 @@ const Project = () => {
           See My <span className="sub_heading">Works</span>
         </h1>
         <div className="project_list">
-          <img src="/Project1.png" alt="" />
+          <img src={project1_img} alt="" />
           <div className="des">
             <h2>PROJECT NO 1</h2>
             <p>

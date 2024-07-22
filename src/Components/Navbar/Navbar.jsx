@@ -1,5 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
+import project_icon from "../../assets/project_icons.png";
+import person_icon from "../../assets/person_icons.png";
+import contact_icon from "../../assets/contact_icons.png";
 
 const Navbar = () => {
   return (
@@ -31,7 +34,7 @@ const Navbar = () => {
                 to="/"
                 exact
               >
-                <img src="/person_icons.png" /> About
+                <img src={person_icon} /> About
               </NavLink>
             </li>
             <li className="nav-item">
@@ -42,7 +45,7 @@ const Navbar = () => {
                 }
                 to="/projects"
               >
-                <img src="/project_icons.png" /> Project
+                <img src={project_icon} /> Project
               </NavLink>
             </li>
             <li className="nav-item">
@@ -53,7 +56,7 @@ const Navbar = () => {
                 }
                 to="/contact"
               >
-                <img src="/contact_icons.png" alt="" /> Contact
+                <img src={contact_icon} alt="" /> Contact
               </NavLink>
             </li>
           </ul>
