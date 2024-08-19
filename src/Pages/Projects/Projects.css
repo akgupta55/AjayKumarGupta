@@ -39,9 +39,9 @@
 }
 
 .project .project_list .project_item img {
-  height: 300px;
-  width: 400px;
-  border: 0.3rem solid var(--secondary-color);
+  height: 400px;
+  width: 460px;
+  border: 0.18rem solid var(--main-color);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -53,12 +53,12 @@
 }
 
 .des h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--main-color);
 }
 
 .des p {
-  font-size: 20px;
+  font-size: 14px;
   color: var(--secondary-color);
 }
 
@@ -66,8 +66,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
-  height: 40px;
+  width: 18%;
+  height: 32px;
   outline: none;
   border: 1px solid var(--main-color);
   background-color: var(--secondary-color);
