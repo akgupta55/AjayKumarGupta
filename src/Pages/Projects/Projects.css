@@ -31,6 +31,7 @@
 
 .project .project_list .project_item {
   display: flex;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   padding-block: 60px 40px;
@@ -58,6 +59,11 @@
 }
 
 .des p {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.project .project_list .project_item .des .features {
   font-size: 14px;
   color: var(--secondary-color);
 }
