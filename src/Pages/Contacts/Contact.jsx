@@ -49,6 +49,7 @@ const Contact = () => {
             name="user_name"
             value={Name}
             onChange={(e) => setName(e.target.value)}
+            required
           />
           <label>Email</label>
           <input
@@ -56,12 +57,14 @@ const Contact = () => {
             name="user_email"
             value={Email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
           <label>Message</label>
           <textarea
             name="message"
             value={Msg}
             onChange={(e) => setMsg(e.target.value)}
+            required
           />
           <input className="submit" type="submit" value="Send" />
         </form>
