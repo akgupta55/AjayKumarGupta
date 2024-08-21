@@ -19,7 +19,7 @@ const Banner = () => {
           <br />
           <br />
           Currently, I am working in Acxiom Consulting Pvt. Ltd. at IT and
-          Infrastructure team as a Trainee - Technical.
+          Infrastructure team as a <strong>Cloud Engineer</strong>.
         </p>
       </div>
       <div className="right">
